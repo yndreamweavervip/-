@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/* CSS Document */
+.s1 {z-index: 3999; display: flex; top: 0; left: 0;}
+.left{width: 50%; position: absolute; top: 0; left: 0; animation: bk1 0.5s ease-out 0.5s forwards; background: #FFFFFF;}
+.left img {width: 100%;}
+.right {width: 50%; position: absolute; top: 0; right: 0; animation: bk2 0.5s ease-out 0.5s forwards; background: #FFFFFF;}
+.right img {width: 100%;}
+.part1,.part2,.part3,.part4,.part5{min-width: 1280px;}
+
+@keyframes bk1 {
+	from {left:0;}
+	to{left:-50%;}
+}
+
+@keyframes bk2 {
+	from {right:0;}
+	to{right:-50%;}
+}
+
+.s1 .left{width: 50%; position: absolute; top: 0; left: 0; animation: bk1 1s ease-out 1s forwards; background: #FFFFFF;}
+.s1 .right {width: 50%; position: absolute; top: 0; right: 0; animation: bk2 1s ease-out 1s forwards; background: #FFFFFF;}
+
+@keyframes bk1 {
+	from {left:0;}
+	to{left:-50%;}
+}
+
+
+@keyframes bk2 {
+	from {right:0;}
+	to{right:-50%;}
+}
+.s1 {z-index:999;}
+
+nav {height: 100vh;}
+nav .d0 {width: 10%; position: fixed; top: 5%; left: 5%; z-index: 2000;}
+nav .d0 img {width: 100%;}
+nav .d1 {width: 80%; right: 0; position:absolute;}
+nav .d1 img {width: 100%;}
+nav ul {width: 50%; position: absolute; top: 30%; left: 8%; color: #fff;}
+nav ul .li1 { font-size: 7em; padding-left: 2%;}
+nav ul .li1 span {color: #78afe9;}
+nav ul .li2 {font-size: 4em; padding-left: 17%; padding-top: 5%;}
+nav ul .li2 span {color: #a572e6;}
+nav ul .li3 {font-size: 4em; padding-left: 30%;}
+
+main section { position: relative;}
+main .part1 {width: 90%; margin: 0px auto 0; position: relative;}
+main .part1 h5 {}
+main .part1 .d1 {width: 44%; padding-top: 100px; position: absolute; top: 150px; left: 0;}
+main .part1 .d1 img {width: 100%;}
+main .part1 .d2 {width:35%; padding:40px 5% 40px 30%; margin-left: 20%; margin-top: 220px; background-color:#F3F3F3; position: relative;}
+main .part1 .d2 p {width: 100%; font-size: 0.9em;}
+main .part1 .d2 h5 {font-size: 2em; font-weight: bold; padding-bottom: 30px;}
+main .part1 ul {width: 90%; padding: 30px; margin-left: 100px; background: #FFFFFF;}
+main .part1 ul li { padding: 20px 0; font-size: 12px;}
+main .part1 ul li span {padding-left: 10%; padding-right: 10%;}
+main .part1 ul .li1 {background: #F5F5F5;}
+main .part1 .dbk1 {width:40%; padding-top: 100px; left: 20%; margin-top: 100px; background:url("../images/part1_img2.jpg") no-repeat top left;}
+main .part1 .dbk2 {width:35%; padding-bottom: 350px; left: 20%; padding-right: 10%; margin-top: 100px; background:url("../images/part1_img3.jpg") no-repeat bottom left; float: right; z-index: 2;}
+main .part1 .dbk2 table {width: 100%; padding: 30px; margin-left: 100px; background: #FFFFFF; font-size: 12px;}
+main .part1 .dbk2 table th {width: 15%; padding: 20px 0; padding-left: 10%; padding-right: 10%;} 
+main .part1 .dbk2 table td {width: 85%; padding: 20px 0;}
+main .part1 .dbk2 table .tr1 {background: #F5F5F5;}
+main .part1 .wz1 {width:120%; height: 100px; margin-top: 80px; position: relative; margin-left: -10%;}
+main .part1 .wz1 .p1 { font-size: 6em;position: absolute; top: 0; color: #FFFFFF; z-index: 9;}
+main .part1 .wz1 .p2 {width: 100%; height: 150px; position: absolute; top: 0; background: #000; z-index: 1; opacity: 0.1;}
+
+main .part2 {width: 90%; margin: 70px auto 0; position: relative;}
+main .part2 .d1 {width: 100%; overflow: auto; padding-top: 70px;}
+main .part2 .d1 p {padding-bottom: 30px;}
+main .part2 .d1 .l {width: 35%; padding: 0 5% 0 10%; float: left;}
+main .part2 .d1 .l h5 {font-size: 3em; padding-bottom: 50px; margin-bottom: 50px; border-bottom: 1px solid #959595;}
+main .part2 .d1 .r {width: 45%; float: right;}
+main .part2 .d1 .r img {width: 100%;}
+main .part2 .d2 {width: 90%; padding: 100px 0; margin-left: 10%; margin-top: 100px; background: url("../images/part2_img2.jpg") no-repeat left center; text-align: right;}
+main .part2 .d3 {width: 80%; padding: 100px 0; padding-right: 20%; background: url("../images/part2_img3.jpg") no-repeat right center;}
+main .part2 .d4 {width: 100%; padding: 150px 0; margin-top: 50px; background: url("../images/part2_img4.jpg") no-repeat left top; text-align: right;}
+
+main .part3 {width: 90%; position: relative; margin: 0 auto;}
+main .part3 .d1 {position: relative;}
+main .part3 .d1 img {width: 70%;}
+main .part3 .d1 .p1 {width: 40%; background: #fff; position: absolute; right: 30%; bottom: 0; padding: 50px 0 0 50px;}
+main .part3 .d1 div {width: 5%; position: absolute; top: 0; right: 0;  writing-mode: vertical-lr; text-align: center; padding-left: 25%; padding-top: 100px;}
+main .part3 .d1 div h5 {font-size: 3em; padding: 0 20px; margin-left: 50px; border-left:1px solid #000; border-right:1px solid #000;}
+main .part3 .d1 div p {font-size: 1em;}
+main .part3 .d1 div p span {font-size: 2em;}
+main .part3 ul {margin-top: 70px; overflow: auto;}
+main .part3 ul img {width: 100%;}
+main .part3 ul li {position: relative;}
+main .part3 ul .li1 {width: 25%; float: left;}
+main .part3 ul .li2 {width: 50%; float: left;}
+main .part3 ul li p {width: 100%; height: 100%; position: absolute; top: 0; left: 0; /*background:rgba(0, 0, 0, 0.2);*/ color: #fff; text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;}
+
+main .part4 {width: 100%; margin: 0px auto 0; position: relative;}
+main .part4 .d0 {width: 100%; margin: 0px auto 0; position: relative; padding-top: 300px; padding-bottom: 100px; background-image: linear-gradient(90deg, #ffffff, #ffffff,#f2f2f2,#f2f2f2);}
+main .part4 .d1 {width: 39%; position: absolute; top: -170px; left: 2%;}
+main .part4 .d1 img {width: 90%;}
+main .part4 .d2 {width: 53%; padding-left: 13.5%;}
+main .part4 .d3 {width:23.5%; padding: 0 5%; position: absolute; top: 300px; right: 0;}
+main .part4 .d3 h5 {font-size: 2em; text-align: center; padding-bottom: 30px; padding-top: 60px; margin-bottom: 30px; border-bottom: 1px solid #000;}
+main .part4 .d3 p {padding: 0 5%; }
+main .part4 .d3 ul li {width: 40%; margin: 30px 2% 0 2%; float: left; text-align: center;}
+main .part4 .d3 ul .li1 { background-image: linear-gradient(90deg,#b064e5, #6ebdea); padding: 1%; }
+main .part4 .d3 ul .li1 a { padding: 15px 0; background: #fff; }
+main .part4 .d3 ul .li2 { background-image: linear-gradient(90deg,#b064e5, #6ebdea); padding: 1%; }
+main .part4 .d3 ul .li2 a { padding: 15px 0; color: #fff; }
+main .part4 .d4 {width:100%;}
+main .part4 .d4 h5 {width:100%; line-height: 150px; text-align: right; font-size:2em; font-style:oblique; letter-spacing: 3px; background-image: linear-gradient(90deg,#b064e5, #6ebdea); background-clip: text;  -webkit-background-clip: text; color: transparent;}
+main .part4 .d4 img {width: 100%;}
+
+main .part5 {width: 90%; margin: 0 auto;}
+main .part5 .d1 {position: absolute; top: 0; left: 0;}
+main .part5 .d1 img {width: 100%;}
+main .part5 .ul1 {width: 80%; margin: 0 auto; padding-top: 150px; vertical-align:middle;  /*flex 布局*/display: flex;/*实现垂直居中*/ }
+main .part5 .ul1 li {width: 30.333333%; margin: 0 1.5%; text-align: center; line-height:2em;}
+main .part5 .ul1 li h6 {font-size: 1.125em;}
+main .part5 .ul1 li img {width: 75px; height: 75px; margin-bottom: 15px;}
+
+main .part5 .d2  {width:70%; margin: 100px auto 0; position:relative;}
+main .part5 .d2  ul {width: 50%; background: #fff; padding: 10px;}
+main .part5 .d2  div {width: 100%;}
+main .part5 .d2  ul input {width:100%; margin: 15px 0; line-height: 45px; text-indent: 1em; border: 1px solid #EDEDED;}
+main .part5 .d2  ul textarea {width:calc(100% - 30px); height: 150px; margin: 15px 0; padding: 15px; border: 1px solid #EDEDED;}
+main .part5 .d2  ul li .in1 {width: 70%; font-size: 0.6em; line-height: 60px; margin: 50px 22.5%; color: #fff;  background-image: linear-gradient(90deg,#b064e5, #6ebdea); border-radius: 100px;}
+main .part5 .d2 img {float: left;}
+main .part5 .d2 ul {float: right;}
+.gm1 {width:100%; height:500px;}
+
+
+footer {width:100%; margin-top: 700px; background: #3e3e3e; position: relative; z-index: 2; background-image:  linear-gradient(90deg,#b064e5, #6ebdea);}
+footer main {width:100%; overflow: auto; padding: 70px 0;}
+footer main p {float: left; margin-left: 10%;}
+footer main ul {width:20%; float: right; margin-right: 10%;}
+footer main ul li {width:50%; line-height: 50px; color: #FFFFFF; float: left;}
+footer main ul li a {color: #fff;}
+footer div {width:100%; line-height: 70px; text-align: center; border-top: 1px #a2bef1 solid; color: #FFFFFF; font-size: 0.75em;}a{color:#333; display: block;}
+
+.her1 {height: 50%;}
+
+.part1 h1 {width:400px; font-size:6em; font-style:oblique; letter-spacing: 3px; background-image: linear-gradient(90deg,#b064e5, #6ebdea); background-clip: text;  -webkit-background-clip: text; color: transparent; position: absolute; top: 70px; left: 0; z-index:2;}
+.part1 h3 {font-size:4em; font-style:oblique; letter-spacing: 3px; color:#cccccc; position:relative; top: 135px; left: 300px; z-index:1;}
+.part1 h4 {font-size:6em; font-style:oblique; transform: rotate(90deg); position:absolute; right:-18%; top:450px; letter-spacing: 3px; background-image: linear-gradient(#b064e5, #6ebdea); background-clip: text;  -webkit-background-clip: text; color: transparent; opacity:0.4;}
+
+.part2 h1 {width:210px; font-size:6em; font-style:oblique; letter-spacing: 3px; background-image: linear-gradient(90deg,#b064e5, #6ebdea); background-clip: text;  -webkit-background-clip: text; color: transparent; position: absolute; top: 70px; left: 0; z-index:2;}
+.part2 h2 {width:110px; font-size:2em; font-style:oblique; letter-spacing: 3px; background-image: linear-gradient(90deg,#b064e5, #6ebdea); background-clip: text;  -webkit-background-clip: text; color: transparent; position: absolute; top: 100px; left: 300px; z-index:2;}
+.part2 h3 {font-size:4em; font-style:oblique; letter-spacing: 3px; color:#cccccc; position:relative; top: 135px; left: 150px; z-index:1; padding-bottom: 150px;}
+.part2 h4 {font-size:6em; font-style:oblique; transform: rotate(90deg); position:absolute; left:-37%; top:850px; letter-spacing: 3px; background-image: linear-gradient(#b064e5, #6ebdea); background-clip: text;  -webkit-background-clip: text; color: transparent; opacity:0.4;}
+@media screen and (max-width:1700px){
+.part2 h4 {left:-40%;}
+}
+@media screen and (max-width:1600px){
+.part2 h4 {left:-47%;}
+}
+@media screen and (max-width:1500px){
+.part2 h4 {left:-47%;}
+}
+@media screen and (max-width:1366px){
+.part2 h4 {left:-47%;}
+}
+
+
+.part3 h1 {width:210px; font-size:6em; font-style:oblique; letter-spacing: 3px; background-image: linear-gradient(90deg,#b064e5, #6ebdea); background-clip: text;  -webkit-background-clip: text; color: transparent; position: absolute; top: 70px; left: 0; z-index:2;}
+.part3 h2 {width:110px; font-size:2em; font-style:oblique; letter-spacing: 3px; background-image: linear-gradient(90deg,#b064e5, #6ebdea); background-clip: text;  -webkit-background-clip: text; color: transparent; position: absolute; top: 100px; left: 300px; z-index:2;}
+.part3 h3 {font-size:4em; font-style:oblique; letter-spacing: 3px; color:#cccccc; position:relative; top: 135px; left: 150px; z-index:1; padding-bottom: 150px;}
+.part3 h4 {font-size:6em; font-style:oblique; transform: rotate(90deg); position:absolute; left:-37%; top:850px; letter-spacing: 3px; background-image: linear-gradient(#b064e5, #6ebdea); background-clip: text;  -webkit-background-clip: text; color: transparent; opacity:0.4;}
+
+.part4 h1 {width:510px; font-size:6em; font-style:oblique; letter-spacing: 3px; background-image: linear-gradient(90deg,#b064e5, #6ebdea); background-clip: text;  -webkit-background-clip: text; color: transparent; position: absolute; top: 0px; right: 0; z-index:2; font-family: "Shree Devanagari 714"; font-size: 10em;}
+.part4 h3 {font-size:3em; font-style:oblique; letter-spacing: 3px; color:#000; position:absolute; top: 100px; right: 530px; z-index:1; padding-bottom: 150px;}
+.part4 h4 {width:200px; font-size:3em; font-style:oblique; letter-spacing: 3px; background-image: linear-gradient(90deg,#b064e5, #6ebdea); background-clip: text;  -webkit-background-clip: text; color: transparent; position: absolute; top: -70px; right: 0px; z-index:2;}
