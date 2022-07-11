@@ -48,6 +48,7 @@ a {
 }
 
 @media (min-width: 800px) {
+	
   .et-hero-tabs h1,
   .et-slide h1 {
     font-size: 3rem;
@@ -57,4 +58,27 @@ a {
   .et-hero-tab {
     font-size: 1rem;
   }
+}
+
+@media (max-width: 1000px){
+		
+	.et-hero-tabs-container {
+	  width: 70%;
+		padding-left: 30%;
+		padding-right: 0%;
+	  height: 60px;
+	  background: #fff;
+	  z-index: 10;
+	}
+	.et-hero-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  color: #000;
+  letter-spacing: 0.1rem;
+  transition: all 0.5s ease;
+  font-size: 0.5rem;
+}
+
 }

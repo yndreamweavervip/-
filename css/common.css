@@ -1,9 +1,11 @@
 html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,input,lable,textarea,p,blockquote,th,td,Video,section{margin:0;padding:0;border:0 none;list-style:none;}
 table{border-collapse:collapse;border-spacing:0;}
+body {font-family: "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;}
 html{overflow-x:hidden;}
 input,textarea{outline:0;border-radius:0;-webkit-appearance:none;}
 img,input,select{border:0;}
 
+.z1 {font-family:"ヒラギノ明朝 Pro W3";}
 a{color:#333; display: block;}
 a:link{text-decoration:none;}
 a:visited{text-decoration:none;}
